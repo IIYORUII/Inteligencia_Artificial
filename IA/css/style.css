@@ -116,72 +116,7 @@ nav li a:hover {
   transition-duration: 0.4s;
 }
 
-/* Estilos para la sección de los integrantes */
-#seccionIntegrantes {
-  padding: 52px 0;
-  /* background-color: #286955; */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 
-  background: hsla(70, 34%, 62%, 1);
-
-  background: linear-gradient(
-    90deg,
-    hsla(70, 34%, 62%, 1) 0%,
-    hsla(162, 45%, 28%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(70, 34%, 62%, 1) 0%,
-    hsla(162, 45%, 28%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(70, 34%, 62%, 1) 0%,
-    hsla(162, 45%, 28%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B4BF7E", endColorstr="#286955", GradientType=1);
-}
-
-#seccionIntegrantes .subtitulo {
-  color: white;
-  font-size: 3rem;
-  border: 5px solid white;
-  padding: 20px 100px;
-}
-
-#integrantes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-  width: 80%;
-}
-
-.integrante {
-  text-align: center;
-  color: white;
-}
-
-.integrante h3 {
-  font-size: 1.3rem;
-  font-family: "Play", sans-serif;
-}
-
-/* #integrantes img {
-  width: 140px;
-  height: 140px;
-  margin: 20px 100px;
-  border-radius: 100px;
-  border: 4px solid white;
-  padding: 5px;
-} */
 
 /* Estilos para la sección de fotos */
 #seccionFotos {
@@ -420,6 +355,7 @@ footer a {
   padding: 40px;
   border-radius: 30px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  
 }
 
 .cofundadores {
@@ -445,3 +381,19 @@ footer a {
   margin-top: 5px;
   font-size: 14px;
 }
+
+  /* Estilos para los elementos de la sección de beneficios */
+  .feature {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Estilos para los elementos de la sección de beneficios cuando se les hace hover */
+  .feature:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
+  }
