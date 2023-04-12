@@ -7,6 +7,8 @@
     <title>Blog estudiantil G5</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <script src="carrusel.js"></script>
+
 
     <!-- Bootstrap CSS -->
     <link
@@ -255,6 +257,11 @@
     </section>
 
 
+   
+
+     
+
+
     <!-- Sección de fotos -->
 
     <div class="section-p container-fluid py-1">
@@ -265,48 +272,40 @@
 
                     <div class="carousel">
                         <div class="carousel__contenedor">
-                            <button aria-label="Anterior" class="carousel__anterior">
+                            <button aria-label="Anterior" class="carousel__anterior" id="carouselAnterior">
                                 <i class="fas fa-chevron-left"></i>
                             </button>
 
-                            <div class="carousel__lista">                             
+                            <div class="carousel__lista" id="carouselLista">                             
                                 
                               <div class="card card-p mb-3">
                                 <a href="Usuario/verProducto.php?id=">
                                     <img class="card-img-top" alt="" src="images/grupo2.png" >
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title line-clamp-2 text-truncate">Nombre del Producto</h5>
-                                    <p class="card-text line-clamp-2 text-truncate">Descripción del Producto</p>
-                                    <span class="fs-4">
-                                        Precio: S/ 50.00
-                                        <small class="desc">Descuento: 10%</small> 
-                                    </span>
+                                    <h5 class="card-title line-clamp-2 text-truncate">Título de la foto</h5>
+                                    <p class="card-text line-clamp-2 text-truncate">Descripción de la foto</p>
+                                    
                                 </div>     
                             </div>
 
-                            <div class="carousel__lista">                             
+                            <div class="carousel__lista" id="carouselLista">                             
                                 
                               <div class="card card-p mb-3">
                                 <a href="Usuario/verProducto.php?id=">
                                     <img class="card-img-top" alt="" src="images/grupo2.png" >
                                 </a>
                                 <div class="card-body">
-                                    <h5 class="card-title line-clamp-2 text-truncate">Nombre del Producto</h5>
-                                    <p class="card-text line-clamp-2 text-truncate">Descripción del Producto</p>
-                                    <span class="fs-4">
-                                        Precio: S/ 50.00
-                                        <small class="desc">Descuento: 10%</small> 
-                                    </span>
+                                    <h5 class="card-title line-clamp-2 text-truncate">Título de la foto</h5>
+                                    <p class="card-text line-clamp-2 text-truncate">Descripción de la foto</p>
+                                    
                                 </div>     
                             </div>
-                                
-                                
-                            </div>
+                            
 
                             
 
-                            <button aria-label="Siguiente" class="carousel__siguiente">
+                            <button aria-label="Siguiente" class="carousel__siguiente" id="carouselSiguiente">
                                 <i class="fas fa-chevron-right"></i>
                             </button>
                         </div>
