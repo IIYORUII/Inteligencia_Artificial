@@ -345,7 +345,7 @@ footer a {
 
 
 
-
+  /* Contenedores */
 
 .contenedor-p { 
   background-color: #FAFAFA;
@@ -382,7 +382,7 @@ footer a {
   font-size: 14px;
 }
 
-  /* Estilos para los elementos de la sección de beneficios */
+  /* Estilos para los elementos de la sección de grupos */
   .feature {
     background-color: #fff;
     padding: 1rem;
@@ -391,9 +391,59 @@ footer a {
     transition: all 0.3s ease-in-out;
   }
   
-  /* Estilos para los elementos de la sección de beneficios cuando se les hace hover */
+  /* Estilos para los elementos de la sección de grupos cuando se les hace hover */
   .feature:hover {
     background-color: #f2f2f2;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-5px);
   }
+
+  
+
+/*--------- seccion productos mas vendidos ----------------*/
+.section-p{
+  background-color: #fff;
+}
+
+.contenedor-p { 
+  background-color: #FAFAFA;
+  width: 95%;
+  max-width: 1300px;
+  margin: 35px auto;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card-p{
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  transition: 0.2s all;
+}
+.card-p:hover{
+  transform: scale(1.05);
+}
+
+
+.card-img-top{
+border-radius: 10px;
+object-fit: contain;
+max-height: 240px;
+}
+
+
+
+.carousel-p {
+  padding: 1em;
+}
+
