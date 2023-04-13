@@ -222,28 +222,27 @@ table {
 
 thead {
   vertical-align: middle !important;
-  font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(to bottom, #04837c, #1a8386, #3782a5);
-  color: white;
-  font-family: "Sarala", sans-serif;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-family: 'Open Sans', sans-serif !important;
+  background: linear-gradient(to bottom, #04837c, #1a8386, #3782a5)!important;
+  color: white !important;
+  font-family: "Sarala", sans-serif !important;
+  text-align: center !important;
+  padding-top: 30px !important;
+  padding-bottom: 20px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
   
 }
 
 td {
-  font-family: "Play", sans-serif;
-  background-color: #ace9dfc4;
-  border-collapse: collapse;
-  border: 3px solid rgb(243, 237, 237);
+  font-family: "Play", sans-serif !important;
+  background-color: #ace9dfc4 !important;
+  border-collapse: collapse !important;
+  border: 3px solid rgb(243, 237, 237) !important;
   vertical-align: middle !important;
-  border-style: dashed;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  
+  border-style: dashed !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 13px !important;
 }
 
 a {
