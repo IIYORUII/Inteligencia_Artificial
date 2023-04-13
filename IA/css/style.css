@@ -1,45 +1,36 @@
 
 body {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  margin-top: 0px;
+  background-color: #e4e4e4 !important;
 }
 
 .titulo {
   color: rgb(224, 229, 235);
   background-color: rgba(28, 78, 119, 0.76);
   font-weight: bold;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  border-radius: 20px 20px 20px 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 10px;
   margin: 0px 0px;
   font-size: 50px;
 }
 
+
 #logo {
-  margin-top: 0;
+  margin: 0;
   font-weight: bold;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 110vh;
   background: url(../images/unmsm-banner.png) no-repeat center;
-  background-size: cover;
   background-position: center center;
   background-size: 100% auto;
   position: relative;
+  background-size: cover;
+  height: 70vh;
 }
 
-.informacion{
-  color: rgba(23, 67, 104, 0.76) !important;
-  font-weight: bold;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 10px;
-  margin: 0px 0px;
-  font-size: 30px;
-}
 
 #logo img {
   width: 10x;
@@ -48,14 +39,15 @@ body {
 
 #logo p {
   text-align: center;
+  color: rgb(224, 229, 235);
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  font-size: 20px;
+  background-color: rgba(28, 78, 119, 0.76);
   font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 0px;
-  font-size: 30px;
-  color: #fff;
-  padding: 0 150px;
-  -webkit-text-stroke: 2px black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+  margin: 0px 0px;
 }
 
 .subtitulo {
@@ -70,8 +62,10 @@ body {
 
 /* Estilos para el navbar */
 nav {
+  display: flex;
+  justify-content: flex-end;
   background-color: rgb(120, 180, 230);
-  border-bottom: 10px solid #014763;
+  border-bottom: 10px solid #062f3f;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -79,62 +73,32 @@ nav {
   border: 0;
   font-size: 16px;
   vertical-align: baseline;
-  color: rgb(255, 255, 255) ;
+  color: rgb(255, 255, 255);
 }
 
 nav ul {
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  margin-left: auto;
   background-color: rgb(120, 180, 230);
   color: rgb(255, 255, 255);
+  align-items: center;
 }
+
 
 nav li {
-  float: left;
   color: rgb(255, 255, 255);
+  padding-left: 30px;
 }
 
-nav li a {
-  display: block;
+ul li {
   color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  /* border-right: 1px solid rgb(40, 105, 85); */
-  /* line-height: 50%; */
+  font-weight: bold;
 }
 
-nav li a:hover {
-  text-decoration: none;
-  background-color: #286955;
-  color: rgb(255, 255, 255);
-  transition-duration: 0.4s;
-}
-
-.lastA {
-  border-right: none;
-}
-
-.dropdown .btn {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: none;
-  border-radius: 0;
-}
-
-.dropdown .btn:hover {
-  background-color: #286955;
-  text-decoration: none;
-  color: white;
-  border: none;
-  border-radius: 0;
-  transition-duration: 0.4s;
-}
 
 
 
@@ -393,17 +357,6 @@ footer a {
 
   /* Contenedores */
 
-.contenedor-p { 
-  background-color: #fafafa00;
-  width: 95%;
-  max-width: 1300px;
-  margin: 35px auto;
-  padding: 40px;
-  border-radius: 30px;
-  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
-  
-}
-
 
 
 .cofundadores {
@@ -451,20 +404,17 @@ footer a {
 
 /*--------- seccion productos mas vendidos ----------------*/
 .section-p{
-  background-color: #fff;
+  background-color: #e4e4e4;
 }
 
 .contenedor-p { 
   background-color: #FAFAFA;
-  margin-top: 0;
   width: 95%;
   max-width: 1300px;
-  margin-top: 0;
-  margin: 35px ;
+  margin: 35px auto;
   padding: 40px;
   border-radius: 30px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
-  
 
 }
 
